@@ -18,43 +18,31 @@
   <body>
     <header>
       <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand text-black fw-bold" href="#"
-              >Abacus Convention Center</a
-            >
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Subscribe</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Abacus Convention Center</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">Subscribe</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
       </div>
 
       <div id="carouselExampleCaptions" class="carousel slide">
@@ -178,7 +166,7 @@
     </header>
 
     <!-- toast boostrap thing have to use -->
-    <section class="my-5">
+    <section>
       <div class="container position-relative">
         <div class="row d-flex align-items-center">
           <div class="col-12 col-md-6 col-lg-6">
@@ -212,72 +200,363 @@
           </div>
         </div>
 
-        <div class="toast align-items-center position-absolute show" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="d-flex">
-              <div class="toast-body">
-                Hello, world! This is a toast message.
-              </div>
-              <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
+        <div
+          class="toast align-items-center position-absolute show"
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+        >
+          <div class="d-flex">
+            <div class="toast-body"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-gift-fill mb-1 text-primary" viewBox="0 0 16 16">
+                <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7h6zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9H2.5z"/>
+              </svg>  20% off for next booking</div>
+            <button
+              type="button"
+              class="btn-close me-2 m-auto"
+              data-bs-dismiss="toast"
+              aria-label="Close"
+            ></button>
           </div>
+        </div>
       </div>
     </section>
 
+    <!-- ------------------------ Packages ---------------------->
+    <section>
+      <div class="container">
+        <h2 class="text-center my-5">Our package</h2>
+        <div class="row">
+          <div class="rounded d-flex align-items-start flex-column col-12 mb-md-3 col-md-6  py-3 col-lg-3">
+            <h3>300$</h3>
+            <h4>bussines fair</h4>
+            <p>For most businesses event like book fair, craft fair.</p>
+            <ul>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
+                <p>limited space access</p>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
+                <p>limited space access</p>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
+                <p>limited space access</p>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
+                <p>limited space access</p>
+              </li>
+            </ul>
+            <button class="btn text-primary fw-bold bg-body-tertiary w-100 rounded-5">
+              choose-plan
+            </button>
+          </div>
+          <div class="rounded d-flex align-items-start flex-column col-12 mb-md-3 col-md-6  py-3 col-lg-3">
+            <h3>500$</h3>
+            <h4>bussines fair</h4>
+            <p>For most businesses event like book fair, craft fair.</p>
+            <ul>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
+                <p>limited space access</p>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
+                <p>limited space access</p>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
+                <p>limited space access</p>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
+                <p>limited space access</p>
+              </li>
+            </ul>
 
+            <button class="btn text-primary fw-bold bg-body-tertiary w-100 rounded-5">choose-plan</button>
+          </div>
+          <div class="rounded position-relative d-flex align-items-start flex-column bg-primary-subtle col-12 mb-md-3 col-md-6  py-3 col-lg-3">
+            <h3 class="text-white">800$</h3>
+            <h4>bussines fair</h4>
+            <p>For most businesses event like book fair, craft fair.</p>
+            <ul class="m-0 p-0">
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
 
+                <p>limited space access</p>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
+                <p>limited space access</p>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
+                <p>limited space access</p>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
+                <p>limited space access</p>
+              </li>
+            </ul>
 
-
-    <section class="my-5">
-        <div class="container">
-            <h2 class="text-center my-5">Happy Clients says</h2>
-            <div class="row">
-                <div class="col-12 col-md-4 mb-4  ">
-                  <div class="card shadow border-0">
-                    <div class="card-body px-5 text-center">
-                        <p class="card-text text-black-50">Slate helps you see how 
-                            many more days you need 
-                            to work to reach your financial 
-                            goal for the month and year. </p>
-                            <img class="my-1" src="images/person 1.png" alt="">
-                            <h5 class="card-title">Speciatment</h5>
-                            <p class="text-black-50 fw-bold">banker</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-4 mb-4  ">
-                    <div class="card shadow border-0">
-                      <div class="card-body px-5 text-center">
-                          <p class="card-text text-black-50">Slate helps you see how 
-                              many more days you need 
-                              to work to reach your financial 
-                              goal for the month and year. </p>
-                              <img class="my-1" src="images/person 2.png" alt="">
-                              <h5 class="card-title">Speciatment</h5>
-                              <p class="text-black-50 fw-bold">banker</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-4 mb-4  ">
-                    <div class="card shadow border-0">
-                      <div class="card-body px-5 text-center">
-                          <p class="card-text text-black-50">Slate helps you see how 
-                              many more days you need 
-                              to work to reach your financial 
-                              goal for the month and year. </p>
-                              <img class="my-1" src="images/person 3.png" alt="">
-                              <h5 class="card-title">Speciatment</h5>
-                              <p class="text-black-50 fw-bold">banker</p>
-                      </div>
-                    </div>
-                  </div>
-              </div>
+            <button class="btn text-primary fw-bold bg-body-tertiary w-100 rounded-5">choose-plan</button>
+          </div>
+          <div class="rounded d-flex align-items-start flex-column col-12 mb-md-3 col-md-6  py-3 col-lg-3">
+            <h3>1200$</h3>
+            <h4>bussines fair</h4>
+            <p>For most businesses event like book fair, craft fair.</p>
+            <ul>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
+                <p>limited space access</p>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
+                <p>limited space access</p>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
+                <p>limited space access</p>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                  />
+                </svg>
+                <p>limited space access</p>
+              </li>
+            </ul>
+            <button class="btn text-primary fw-bold bg-body-tertiary w-100 rounded-5">choose-plan</button>
+          </div>
         </div>
+      </div>
     </section>
 
-
+    <!-- --------------- Happy clints-------------------- -->
+    <section>
+      <div class="container">
+        <h2 class="text-center my-5">Happy Clients says</h2>
+        <div class="row">
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card shadow border-0">
+              <div class="card-body px-5 text-center">
+                <p class="card-text text-black-50">
+                  Slate helps you see how many more days you need to work to
+                  reach your financial goal for the month and year.
+                </p>
+                <img class="my-1" src="images/person 1.png" alt="" />
+                <h5 class="card-title">Speciatment</h5>
+                <p class="text-black-50 fw-bold">banker</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card shadow border-0">
+              <div class="card-body px-5 text-center">
+                <p class="card-text text-black-50">
+                  Slate helps you see how many more days you need to work to
+                  reach your financial goal for the month and year.
+                </p>
+                <img class="my-1" src="images/person 2.png" alt="" />
+                <h5 class="card-title">Speciatment</h5>
+                <p class="text-black-50 fw-bold">banker</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card shadow border-0">
+              <div class="card-body px-5 text-center">
+                <p class="card-text text-black-50">
+                  Slate helps you see how many more days you need to work to
+                  reach your financial goal for the month and year.
+                </p>
+                <img class="my-1" src="images/person 3.png" alt="" />
+                <h5 class="card-title">Speciatment</h5>
+                <p class="text-black-50 fw-bold">banker</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!---------------------- ACCORDIAN----------------------------->
-    <section class="my-5">
+    <section class="acc">
       <div class="container">
         <h2 class="text-center my-5">Frequently Asked Questions</h2>
         <div class="row my-5">
@@ -415,6 +694,64 @@
         </div>
       </div>
     </section>
+
+    <!-- --------------------- footer ---------------------------- -->
+    <footer class="py-5">
+      <div class="container">
+        <div class="row  align-items-center  justify-content-between">
+          <div class="col-12 col-md-6">
+            <p class="text-white-50">© 2020 bike. All rights reserved</p>
+          </div>
+          <div class="text-white-50 col-12 col-md-3">
+            <h6>Get the App</h6>
+            <div
+              class="d-flex bg-black p-2 justify-content-around mb-3 rounded align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-apple"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"
+                />
+                <path
+                  d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"
+                />
+              </svg>
+              <div>
+                <h6>App Store</h6>
+                <p>Desktop version</p>
+              </div>
+            </div>
+            <div
+              class="d-flex bg-black p-2 justify-content-around mb-3 rounded align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-google-play"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"
+                />
+              </svg>
+              <div>
+                <h6>App Store</h6>
+                <p>Desktop version</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <!-- js bootsrap section -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
