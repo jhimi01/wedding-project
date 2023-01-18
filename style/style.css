@@ -10,3 +10,12 @@ header{
     height: 584px;
     object-fit: cover;
 }
+.toast{
+    border-left: 3px solid #006eff;
+ right: 0;
+ top: 50%;
+}
+.accordion-button:focus {
+   border: none !important;
+   outline: none !important;
+}
