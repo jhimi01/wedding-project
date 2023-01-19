@@ -74,10 +74,5 @@ footer{
 
 
 @media screen and (max-width: 78px) {
-    .acc .container .row{
-      flex-direction: column-reverse !important;
-    }
-    footer .container .justify-content-between{
-      /* flex-direction: column-reverse !important; */
-    }
+    
 }
